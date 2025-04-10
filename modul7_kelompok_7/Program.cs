@@ -1,50 +1,80 @@
 ﻿using System;
 using System.IO;
 using System.Text.Json;
-using System.Collections.Generic;
-public class TeamMember
-{
-    public string? nim { get; set; }
-    public string? firstName { get; set; }
-    public string? lastName { get; set; }
-    public string? gender { get; set; }
-    public int age { get; set; }
-}
+using System.Text.Json.Serialization;
 
-public class TeamMembers2311104076
+public class GlossaryItem2311104076
 {
-    public List<TeamMember>? members { get; set; }
-
-    public static void ReadJSON()
+    public class GlossDef
     {
-        string filePath = "jurnal7_2_2311104076.json";
+        public string para { get; set; }
+        public string[] GlossSeeAlso { get; set; }
+    }
 
-        if (!File.Exists(filePath))
+    public class GlossEntry
+    {
+        public string ID { get; set; }
+        public string SortAs { get; set; }
+        public string GlossTerm { get; set; }
+        public string Acronym { get; set; }
+        public string Abbrev { get; set; }
+        public GlossDef GlossDef { get; set; }
+        public string GlossSee { get; set; }
+    }
+
+    public class GlossList
+    {
+        public GlossEntry GlossEntry { get; set; }
+    }
+
+    public class GlossDiv
+    {
+        public string title { get; set; }
+        public GlossList GlossList { get; set; }
+    }
+
+    public class Glossary
+    {
+        public string title { get; set; }
+        public GlossDiv GlossDiv { get; set; }
+    }
+
+    public class Root
+    {
+        public Glossary glossary { get; set; }
+    }
+
+    public void ReadJSON()
+    {
+        try
         {
-            Console.WriteLine($"File '{filePath}' tidak ditemukan.");
-            return;
+            string filePath = "jurnal7_3_2311104076.json";
+            string json = File.ReadAllText(filePath);
+
+            var data = JsonSerializer.Deserialize<Root>(json);
+
+            Console.WriteLine("=== GlossEntry ===");
+            var entry = data.glossary.GlossDiv.GlossList.GlossEntry;
+            Console.WriteLine($"ID: {entry.ID}");
+            Console.WriteLine($"Term: {entry.GlossTerm}");
+            Console.WriteLine($"Acronym: {entry.Acronym}");
+            Console.WriteLine($"Definition: {entry.GlossDef.para}");
+            Console.WriteLine($"GlossSee: {entry.GlossSee}");
+            Console.WriteLine("GlossSeeAlso: " + string.Join(", ", entry.GlossDef.GlossSeeAlso));
         }
-
-        string jsonData = File.ReadAllText(filePath);
-        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-
-        var data = JsonSerializer.Deserialize<TeamMembers2311104076>(jsonData, options);
-
-        Console.WriteLine("Team member list:");
-        if (data?.members != null)
+        catch (Exception ex)
         {
-            foreach (var member in data.members)
-            {
-                Console.WriteLine($"{member.nim} {member.firstName} {member.lastName} ({member.age} {member.gender})");
-            }
+            Console.WriteLine("Error reading JSON: " + ex.Message);
         }
     }
 }
 
+
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        TeamMembers2311104076.ReadJSON();
+        var glossary = new GlossaryItem2311104076();
+        glossary.ReadJSON();
     }
 }
