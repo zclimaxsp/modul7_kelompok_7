@@ -1,0 +1,25 @@
+{
+  "members" : [
+    {
+       "firstName": "Alya",
+       "lastName": "Rabani",
+       "gender": "female",
+       "age": 20,
+       "nim": "2311104076"
+    },
+    {
+      "firstName": "Dhiemas",
+      "lastName": "Tulus Ikhsan",
+      "gender": "male",
+      "age": 19,
+      "nim": "2311104046"
+    },
+    {
+      "firstName": "Zhafir",
+      "lastName": "Zaidan Avail",
+      "gender": "male",
+      "age": 20,
+      "nim": "2311104059"
+    }
+  ]
+}
