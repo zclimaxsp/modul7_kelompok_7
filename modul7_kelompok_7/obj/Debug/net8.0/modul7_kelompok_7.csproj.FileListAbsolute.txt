@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\jurnal7_1_2311104076.json
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\modul7_kelompok_7.exe
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\modul7_kelompok_7.deps.json
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\modul7_kelompok_7.runtimeconfig.json
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\modul7_kelompok_7.dll
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\modul7_kelompok_7.pdb
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.sourcelink.json
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.dll
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\refint\modul7_kelompok_7.dll
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.pdb
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\ref\modul7_kelompok_7.dll

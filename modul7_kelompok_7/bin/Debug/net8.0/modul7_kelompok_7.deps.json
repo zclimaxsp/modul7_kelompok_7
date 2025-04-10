@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "modul7_kelompok_7/1.0.0": {
+        "runtime": {
+          "modul7_kelompok_7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "modul7_kelompok_7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
