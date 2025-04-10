@@ -14,3 +14,4 @@ C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Base
 C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.pdb
 C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\modul7_kelompok_7.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net8.0\ref\modul7_kelompok_7.dll
+C:\Users\Lenovo\source\repos\KPL_ALYA_RABANI_2311104076_SE-07-02\07_Grammar-Based_Input_Processing_Parsing\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net8.0\jurnal7_2_2311104076.json

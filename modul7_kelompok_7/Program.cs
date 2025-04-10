@@ -2,40 +2,22 @@
 using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
-
-public class Address
+public class TeamMember
 {
-    public string? streetAddress { get; set; }
-    public string? city { get; set; }
-    public string? state { get; set; }
-}
-
-public class Course
-{
-    public string? code { get; set; }
-    public string? name { get; set; }
-}
-
-public class DataMahasiswa2311104076
-{
+    public string? nim { get; set; }
     public string? firstName { get; set; }
     public string? lastName { get; set; }
     public string? gender { get; set; }
     public int age { get; set; }
-    public Address? address { get; set; }
-    public List<Course>? courses { get; set; }
 }
 
-class Program
+public class TeamMembers2311104076
 {
-    static void Main()
-    {
-        ReadJSON();
-    }
+    public List<TeamMember>? members { get; set; }
 
-    static void ReadJSON()
+    public static void ReadJSON()
     {
-        string filePath = "jurnal7_1_2311104076.json";
+        string filePath = "jurnal7_2_2311104076.json";
 
         if (!File.Exists(filePath))
         {
@@ -44,27 +26,25 @@ class Program
         }
 
         string jsonData = File.ReadAllText(filePath);
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-        var options = new JsonSerializerOptions
+        var data = JsonSerializer.Deserialize<TeamMembers2311104076>(jsonData, options);
+
+        Console.WriteLine("Team member list:");
+        if (data?.members != null)
         {
-            PropertyNameCaseInsensitive = true
-        };
-
-        var data = JsonSerializer.Deserialize<DataMahasiswa2311104076>(jsonData, options);
-
-        Console.WriteLine("=== Data Mahasiswa ===");
-        Console.WriteLine($"Nama       : {data?.firstName} {data?.lastName}");
-        Console.WriteLine($"Gender     : {data?.gender}");
-        Console.WriteLine($"Usia       : {data?.age}");
-        Console.WriteLine($"Alamat     : {data?.address?.streetAddress}, {data?.address?.city}, {data?.address?.state}");
-
-        Console.WriteLine("Mata Kuliah:");
-        if (data?.courses != null)
-        {
-            foreach (var course in data.courses)
+            foreach (var member in data.members)
             {
-                Console.WriteLine($"  - {course.code}: {course.name}");
+                Console.WriteLine($"{member.nim} {member.firstName} {member.lastName} ({member.age} {member.gender})");
             }
         }
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        TeamMembers2311104076.ReadJSON();
     }
 }
