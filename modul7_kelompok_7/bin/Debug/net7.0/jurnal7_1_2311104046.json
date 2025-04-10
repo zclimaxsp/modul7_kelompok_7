@@ -1,0 +1,15 @@
+{
+   "firstName": "Dhiemas Tulus",
+   "lastName": "Ikhsan",
+   "gender": "male",
+   "age": 20,
+   "address": {
+       "streetAddress": "St Karangkobar",
+       "city": "California",
+       "state": "USA"
+   },
+   "courses": [
+       { "code": "CCK2KAB4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CCK2GAB3", "name": "Interaksi Manusia Komputer" }
+   ]
+}
