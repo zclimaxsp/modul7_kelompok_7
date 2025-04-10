@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = modul7_kelompok_7
+build_property.ProjectDir = D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Processing_(Parsing)\JM\modul7_kelompok_7\modul7_kelompok_7\
