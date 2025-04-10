@@ -14,3 +14,4 @@ D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Proce
 D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Processing_(Parsing)\JM\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net7.0\modul7_kelompok_7.genruntimeconfig.cache
 D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Processing_(Parsing)\JM\modul7_kelompok_7\modul7_kelompok_7\obj\Debug\net7.0\ref\modul7_kelompok_7.dll
 D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Processing_(Parsing)\JM\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net7.0\jurnal7_2_2311104046.json
+D:\College\Semester 4\Konstruksi Perangkat Luna\KPL\07_Grammar-based_Input_Processing_(Parsing)\JM\modul7_kelompok_7\modul7_kelompok_7\bin\Debug\net7.0\jurnal7_3_2311104046.json

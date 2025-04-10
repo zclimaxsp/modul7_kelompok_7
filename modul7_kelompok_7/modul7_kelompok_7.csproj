@@ -14,10 +14,17 @@
   </ItemGroup>
 	
     <ItemGroup>
-  <None Update="jurnal7_2_2311104046.json">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </None>
-</ItemGroup>
+    <None Update="jurnal7_2_2311104046.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+   </ItemGroup>
+	
+	<ItemGroup>
+    <None Update="jurnal7_3_2311104046.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+   </ItemGroup>
+
 
 
 </Project>
