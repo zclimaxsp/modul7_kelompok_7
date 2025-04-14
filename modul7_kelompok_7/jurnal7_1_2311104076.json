@@ -1,0 +1,21 @@
+{
+  "firstName": "Alya",
+  "lastName": "Rabani",
+  "gender": "female",
+  "age": 20,
+  "address": {
+    "streetAddress": "Jl. Veteran",
+    "city": "Palu",
+    "state": "Sulawesi Tengah"
+  },
+  "courses": [
+    {
+      "code": "CCK2KAB4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CCK2JAC2",
+      "name": "Basis Data"
+    }
+  ]
+}
